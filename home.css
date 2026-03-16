@@ -43,9 +43,11 @@ body {
     width: 10px;
     translate: 300% -130%;
 }
+.img-jumbo {
+    width: 100% ;
+}
 
-
-.testo-sotto {
+.testo-sotto{
     margin: 0;
     width: 500px;
 }
