@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .toplogo-sony {
     width: 100px;
@@ -28,8 +33,14 @@ body {
 }
 
 .container1 {
-    margin: 0;
-    padding: 0;
+    background-image: url("img/img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100%;
+    min-height: 700px;
+    display:flex;
+    align-items:center;
     
 }
 
@@ -37,12 +48,11 @@ body {
     border-radius: 40px;
 }
 
-
-
 .overlay { 
     position: absolute;
-    width: 10px;
-    translate: 300% -130%;
+    padding: 40px;
+    translate: 20px 200px;
+    
 }
 .img-jumbo {
     width: 100% ;
