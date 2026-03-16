@@ -18,5 +18,34 @@
 .accesso {
     width: 80px;
     height: 40px;
-    border-radius: 40% ;
+    border-radius: 40px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.acquista {
+    border-radius: 40px;
+}
+
+
+
+.overlay { 
+    width: 10px;
+    translate: 300% -130%;
+}
+
+
+.testo-sotto {
+    margin: 0;
+    width: 500px;
 }
