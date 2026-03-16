@@ -1,0 +1,16 @@
+
+.toplogo-sony {
+    width: 100px;
+    
+}
+
+.black-logo-bar {
+    margin: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.accordion-item {
+    border: none;
+    
+}
