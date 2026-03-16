@@ -40,11 +40,13 @@ body {
 
 
 .overlay { 
+    position: absolute;
     width: 10px;
     translate: 300% -130%;
 }
 .img-jumbo {
     width: 100% ;
+    display: block;
 }
 
 .testo-sotto{
