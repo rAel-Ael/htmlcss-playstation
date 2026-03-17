@@ -57,7 +57,20 @@ body {
 
 
 }
-
+.container2 {
+    background-image: url("img/img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    max-width: 100%;
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+.containerBlack {
+    background-color: rgb(32, 32, 41);
+}
 .acquista {
     border-radius: 40px;
 }
@@ -82,10 +95,17 @@ body {
 .bannerinigiochi1 {
     border-radius: 20px;
 }
+.gamebannerino {
+    border-radius: 20px;
+}
+.gamebannerino:hover {
+    transform: translateY(-10px);
+    border: 4px solid rgb(110, 110, 241);
+}
 
 .bannerinigiochi1:hover {
     transform: translateY(-10px);
-    border: 4px solid rgb(81, 81, 226);
+    border: 4px solid rgb(110, 110, 241);
 }
 
 .fraseinpact {
