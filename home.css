@@ -74,6 +74,9 @@ body {
 .acquista {
     border-radius: 40px;
 }
+.scopri {
+    border-radius: 40px;
+}
 
 .overlay {
     position: absolute;
@@ -134,4 +137,10 @@ body {
 .set {
     justify-content: center;
     justify-content: space-around;
+}
+
+.settup {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
 }
