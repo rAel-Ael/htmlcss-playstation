@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.container {
+    
+    margin: 0 auto;
+}
 .toplogo-sony {
     width: 100px;
     
@@ -30,13 +33,14 @@
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 .container1 {
     background-image: url("img/img/jumbo-bg.png");
     background-size: cover;
-    background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
     width:100%;
     min-height: 700px;
     display:flex;
@@ -63,3 +67,18 @@ body {
     margin: 0;
     width: 500px;
 }
+
+.bannerinigiochi1 {
+    
+    border-radius: 20px;
+    width: 280px;
+    height: 140px;
+    margin: 50px 50px 0 20px;
+    
+}
+
+.bannerinigiochi1:hover {
+    transform: translateY(-10px);
+    border: 4px solid rgb(81, 81, 226);
+}
+
