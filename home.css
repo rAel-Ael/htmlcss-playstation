@@ -34,6 +34,8 @@
 
 .info {
     border-radius: 40px;
+    
+
 }
 
 body {
@@ -46,12 +48,13 @@ body {
     background-image: url("img/img/jumbo-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     max-width: 100%;
     width: 100%;
     min-height: 700px;
     display: flex;
     align-items: center;
-    
+
 
 }
 
@@ -63,7 +66,7 @@ body {
     position: absolute;
     padding: 40px;
     translate: 20px 200px;
-    
+
 }
 
 .img-jumbo {
@@ -88,8 +91,11 @@ body {
 .fraseinpact {
     color: gray;
 }
+
 .console-play {
-    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -98,7 +104,7 @@ body {
     opacity: 0.7;
 }
 
-.game-set:hover  {
+.game-set:hover {
     transform: translateY(-10px);
     filter: grayscale(0%);
     opacity: 1;
