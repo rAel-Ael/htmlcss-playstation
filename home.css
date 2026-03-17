@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .container {
-    
+
     margin: 0 auto;
 }
+
 .toplogo-sony {
     width: 100px;
-    
+
 }
 
 .black-logo-bar {
@@ -20,7 +22,7 @@
 
 .accordion-item {
     border: none;
-    
+
 }
 
 .accesso {
@@ -30,10 +32,14 @@
 
 }
 
+.info {
+    border-radius: 40px;
+}
+
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 
 .container1 {
@@ -41,39 +47,44 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%;
-    width:100%;
+    width: 100%;
     min-height: 700px;
-    display:flex;
-    align-items:center;
-    
+    display: flex;
+    align-items: center;
+
 }
 
 .acquista {
     border-radius: 40px;
 }
 
-.overlay { 
+.overlay {
     position: absolute;
     padding: 40px;
     translate: 20px 200px;
-    
+
 }
+
 .img-jumbo {
-    width: 100% ;
+    width: 100%;
     display: block;
 }
 
-.testo-sotto{
+.testo-sotto {
     margin: 0;
     width: 500px;
 }
 
 .bannerinigiochi1 {
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
 .bannerinigiochi1:hover {
     transform: translateY(-10px);
     border: 4px solid rgb(81, 81, 226);
+}
+
+.fraseinpact {
+    color: gray;
 }
 
