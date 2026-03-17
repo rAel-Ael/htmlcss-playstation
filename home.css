@@ -51,6 +51,7 @@ body {
     min-height: 700px;
     display: flex;
     align-items: center;
+    
 
 }
 
@@ -62,7 +63,7 @@ body {
     position: absolute;
     padding: 40px;
     translate: 20px 200px;
-
+    
 }
 
 .img-jumbo {
@@ -87,4 +88,24 @@ body {
 .fraseinpact {
     color: gray;
 }
+.console-play {
+    align-items: center;
+}
 
+
+.game-set {
+    filter: grayscale(100%);
+    opacity: 0.7;
+}
+
+.game-set:hover  {
+    transform: translateY(-10px);
+    filter: grayscale(0%);
+    opacity: 1;
+    border-bottom: 4px solid blue;
+}
+
+.set {
+    justify-content: center;
+    justify-content: space-around;
+}
