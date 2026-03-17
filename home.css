@@ -69,12 +69,7 @@ body {
 }
 
 .bannerinigiochi1 {
-    
-    border-radius: 20px;
-    width: 280px;
-    height: 140px;
-    margin: 50px 50px 0 20px;
-    
+    border-radius: 20px; 
 }
 
 .bannerinigiochi1:hover {
